@@ -1,6 +1,7 @@
 # Cotton-Wool-Spots-Extraction
 Cotton Wool Spots Extraction from fundus images
 
+<b>Procedure</b>
 <ol>
   <li>Reading the image using PIL library and reshaping the image</li>
   <li>Converting Image object to numpy array to extract layers (red & green) of the RGB image</li>
@@ -25,3 +26,6 @@ Cotton Wool Spots Extraction from fundus images
   <li>Plotting the cotton wool spots on the original image.</li>
   <li>Results may not be completely accurate. Some non-CWS spots may be detected as CWS also.</li>
 </ol>
+
+<b>Things to Note:</b> </br>
+* The fundus images have only cotton wool spots present in them but no other abnormalities
